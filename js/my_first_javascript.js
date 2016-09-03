@@ -1,6 +1,6 @@
 alert("This is in javascript");
 
-var test = function (){
+var test = new function(){
 	var A = 1;
 
 	this.getA = function(){
