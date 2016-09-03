@@ -1,11 +1,11 @@
 alert("This is in javascript");
 
 var test = function (){
-	var a = 1;
+	var A = 1;
 
-	function geta(){
-		return a;
+	this.getA = function(){
+		return A;
 	}
 }
 console.log(test); //------------------------1
-console.log(test.geta()); //---------------------------2
+console.log(test.getA()); //---------------------------2
