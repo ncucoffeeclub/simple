@@ -2,7 +2,7 @@ function run() {
     var a = parseInt(document.getElementById("a").value);
     var c = document.getElementById("content");
     var n = document.createElement("p");    
-    n.appendChild(document.createTextNode(minus(a)) - 1);
+    n.appendChild(document.createTextNode(minus(a)));
     c.appendChild(n);
 }
  
