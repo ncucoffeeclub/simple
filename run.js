@@ -8,5 +8,5 @@ function run() {
  
 function minus(a) {
      a - 1;
-     return function minus(a);
+     return a;
 }
